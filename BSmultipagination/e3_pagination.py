@@ -7,7 +7,7 @@ import requests
 
 # How To Get The HTML
 root = 'https://subslikescript.com'  # this is the homepage of the website
-website = f'{root}/movies_letter-X'  # concatenating the homepage with the movies "letter-X" section. You can choose any section (e.g., letter-A, letter-B, ...)
+website = f'{root}/movies_letter-C'  # concatenating the homepage with the movies "letter-X" section. You can choose any section (e.g., letter-A, letter-B, ...)
 result = requests.get(website)
 content = result.text
 soup = BeautifulSoup(content, 'lxml')
